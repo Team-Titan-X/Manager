@@ -17,7 +17,7 @@ from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
-PM_START_TEXT = """ HEY THERE MY NAME IS TITANXBOT. I AM A GROUP MANAGEMENT BOT WITH TOO MANY THINGS. MADE BY :- @TEAMTITANX
+PM_START_TEXT = """ Hᴇʟʟᴏ Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ 𝗟𝘂𝗰𝘆 𝗕𝗼𝘁,Tʜɪs Bᴏᴛ Is A Exᴛʀᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇʀ Bᴏᴛ || Pᴏᴡᴇʀᴇᴅ Bʏ ☞ @TeamTitanX
 
 ───────────────────
 × *I'ᴍ  Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
@@ -27,7 +27,7 @@ PM_START_TEXT = """ HEY THERE MY NAME IS TITANXBOT. I AM A GROUP MANAGEMENT BOT 
 × {} *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* {} 
 ───────────────────
 
-if you want to know more feature then type /help thanks for using me .
+`If you want to know more feature then type /help thanks for using me .`
 
 """
 
@@ -36,7 +36,7 @@ Hey there! My name is *{}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
- - /start: start the bot
+ - /start: Start the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
  - /donate: information about how to donate!
@@ -48,10 +48,10 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/TEAMTITANX) to get me to where I am now, and every donation helps \
+It took lots of work for [𝗠𝗬 𝗖𝗥𝗘𝗔𝗧𝗢𝗥](t.me/TEAMTITANX) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](@teamtitanx),"""
+There are two ways of paying him; [Donate Here](@TitanX_Donation),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
